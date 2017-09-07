@@ -62,4 +62,5 @@ clog:
 	-$(RM) -f $(LOG_FILE) $(BAK_FILE)
 	
 deploy:
+	killall mine
 	nohup ./mine &
