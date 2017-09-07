@@ -61,3 +61,5 @@ clean:
 clog:
 	-$(RM) -f $(LOG_FILE) $(BAK_FILE)
 	
+deploy:
+	nohup ./mine &
