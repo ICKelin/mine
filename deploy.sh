@@ -1,2 +1,2 @@
 killall mine
-nohup ./mine &
+nohup ./mine >/dev/null 2>&1 &
