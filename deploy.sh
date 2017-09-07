@@ -1,0 +1,2 @@
+killall mine
+nohup ./mine &
